@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AutoCadCustomData
+</name>
+</assembly>
+<members>
+<member name="M:AutoCadCustomData.AutoCadCustomData.CreateFieldCustomData(Autodesk.AutoCAD.DatabaseServices.ObjectId)">
+ <summary>
+ Подготовить место для данных перед первым использованием
+ </summary>
+ <param name="obj">Идентификатор объекта</param>
+ <returns>Истина если операция прошла успешно, Лож если нет необходимости либо невозможно</returns>
+</member>
+<member name="M:AutoCadCustomData.AutoCadCustomData.IsExistsCustomData(Autodesk.AutoCAD.DatabaseServices.ObjectId)">
+ <summary>
+ Проверка есть ли данные у объекта
+ </summary>
+ <param name="obj">Идентификатор объекта</param>
+ <returns>Результат проверки</returns>
+</member>
+<member name="M:AutoCadCustomData.AutoCadCustomData.SetCustomData(Autodesk.AutoCAD.DatabaseServices.ObjectId,System.String)">
+ <summary>
+ Сохранить данные
+ </summary>
+ <param name="obj">Идентификатор объекта</param>
+ <param name="data">строковые данные</param>
+ <returns>Истина если операция прошла успешно, Лож если требуется подготовка</returns>
+</member>
+<member name="M:AutoCadCustomData.AutoCadCustomData.GetCustomData(Autodesk.AutoCAD.DatabaseServices.ObjectId)">
+ <summary>
+ Получить данные
+ </summary>
+ <param name="obj">Идентификатор объекта</param>
+ <returns>Строковые данные </returns>
+</member>
+</members>
+</doc>
