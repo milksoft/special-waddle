@@ -76,8 +76,9 @@
     <Import Include="System.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcadXRecordDataDinamicBinding.vb" />
     <Compile Include="AutoCadCustomData.vb" />
-    <Compile Include="Class1.vb" />
+    <Compile Include="GetXmlString.vb" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="My Project\" />
